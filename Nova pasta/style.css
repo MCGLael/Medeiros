@@ -5,9 +5,10 @@
     text-decoration: none;
     list-style: none;
     font-size: 1.1em;
+
 }
 body{
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: white;
 
 }
 header{
@@ -18,7 +19,9 @@ header{
     align-items: center;
     background-color: rgb(78, 226, 49);
 }
-
+a.logo{
+    padding-left: 100px;
+}
 nav{
     
     background-color: rgb(78, 226, 49);
