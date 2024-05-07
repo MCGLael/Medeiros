@@ -19,10 +19,17 @@ header{
     align-items: center;
     background-color: rgb(78, 226, 49);
 }
-section{
-    padding-left: 28%;
-    width: 50%;
-    margin: 0;
+main{
+    margin-top: 10px;
+    height: 100%;
+    background-color: aliceblue;
+    margin-left: 25%;
+    width: 55%;
+    
+}
+h1{
+    font-size: 2em;
+    text-align: center;
 }
 a.logo{
     padding-left: 100px;
@@ -36,6 +43,10 @@ nav ul{
     display: flex;
 }
 nav li{
+    padding: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
     
    
 }
