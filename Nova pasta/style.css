@@ -34,9 +34,23 @@ h1{
 a.logo{
     padding-left: 100px;
 }
-nav{
+footer{
+    display: inline;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    margin-bottom: 0;
     
+    
+}
+div.sociais{
+    justify-content: left;
+}
+nav{
+    display: block;
     background-color: rgb(78, 226, 49);
+    
     
 }
 nav ul{
@@ -63,18 +77,13 @@ nav a{
 
 }
 nav a:hover{
-    color: #419923;
+    color: #272525;
     background-color: #ffffff;
+    border-radius: 10%;
+    border-width: 5px;
 }
 
-footer{
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    height: 1px;
-    
-    background-color: rgb(78, 226, 49);
-}
+
 nav.rodape{
     display: flex;
     
@@ -94,4 +103,13 @@ nav.rodape{
 }
 .rodape li{
     padding: 10px;
+}
+div.inform{
+    font-size: .9em;
+    background-color: rgb(78, 226, 49);
+    padding-left: 100px;
+}
+img{
+    width: 50px;
+    height: 50px;
 }
