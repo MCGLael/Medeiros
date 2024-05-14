@@ -43,15 +43,18 @@ footer{
     margin-bottom: 0;
 }
 
-nav{
+.cabec{
     display: flex;
+    align-items: center;
     background-color: rgb(78, 226, 49);
     
     
 }
+
 .cabec ul{
     display: flex;
 }
+
 
 .cabec li{
     padding: 20px;
@@ -71,21 +74,11 @@ nav{
    
 
 }
-.caebc a:hover{
+.cabec a:hover{
     color: #272525;
     background-color: #ffffff;
     border-radius: 10%;
     border-width: 5px;
-}
-
-
-nav.rodape{
-
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
 }
 .pagamento{
     width: 200px;
@@ -94,16 +87,8 @@ nav.rodape{
     padding-bottom: 20px;
     
 }
-.rodape ul{
-    display: flex;
-    padding-left: 30px;
-    font-size: 0.9em;
-    padding-top: 8px;
-    padding-left: 40px;
-}
-.rodape li{
-    padding: 10px;
-}
+
+
 div.inform{
     font-size: .9em;
     background-color: rgb(78, 226, 49);
