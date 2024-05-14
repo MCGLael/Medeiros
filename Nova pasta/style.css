@@ -32,39 +32,34 @@ h1{
     text-align: center;
 }
 a.logo{
-    padding-left: 100px;
+    padding-left: 10px;
 }
 footer{
-    display: inline;
+    
     width: 100%;
     bottom: 0;
     position: absolute;
     height: 50px;
     margin-bottom: 0;
-    
-    
 }
-div.sociais{
-    justify-content: left;
-}
+
 nav{
-    display: block;
+    display: flex;
     background-color: rgb(78, 226, 49);
     
     
 }
-nav ul{
+.cabec ul{
     display: flex;
 }
-nav li{
+
+.cabec li{
     padding: 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    
-    
-   
-}
-nav a{
+    }
+
+.cabec a{
     
    
     margin: 5%;
@@ -76,7 +71,7 @@ nav a{
    
 
 }
-nav a:hover{
+.caebc a:hover{
     color: #272525;
     background-color: #ffffff;
     border-radius: 10%;
@@ -85,7 +80,11 @@ nav a:hover{
 
 
 nav.rodape{
+
     display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .pagamento{
@@ -96,6 +95,7 @@ nav.rodape{
     
 }
 .rodape ul{
+    display: flex;
     padding-left: 30px;
     font-size: 0.9em;
     padding-top: 8px;
@@ -108,8 +108,12 @@ div.inform{
     font-size: .9em;
     background-color: rgb(78, 226, 49);
     padding-left: 100px;
+    padding-bottom: 30px;
 }
 img{
     width: 50px;
     height: 50px;
+}
+.sociais{
+    display: flex;
 }
