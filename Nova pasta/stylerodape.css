@@ -1,5 +1,5 @@
 .rodape{
-    background-color: #f36e20;
+    background-color: #082e38;
     color: white;
     height: auto;
     width: 100%;
@@ -15,14 +15,17 @@
 }
 .rodape-div{
     display: flex;
+    
     flex-wrap: wrap;
     width:100%;
     margin: auto;
     align-items: stretch;
-    padding: 60px 10px 40px 10px;
+    padding: 60px 0px 40px 0px;
 }
 .div1, .div2, .div3{
+    /*font-size: 15px;*/
     display: flex;
+    justify-content: center;
     width: calc(100% / 3 - 20px);
     padding: 10px;
 }

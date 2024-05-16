@@ -12,12 +12,13 @@ body{
 
 }
 header{
+    font-size: 0.8em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px;
     align-items: center;
-    background-color: rgb(78, 226, 49);
+    background-color: rgb(121, 236, 64);
 }
 main{
     margin-top: 10px;
@@ -44,9 +45,10 @@ footer{
 }
 
 .cabec{
+    
     display: flex;
     align-items: center;
-    background-color: rgb(78, 226, 49);
+    
     
     
 }
@@ -57,6 +59,7 @@ footer{
 
 
 .cabec li{
+    
     padding: 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
