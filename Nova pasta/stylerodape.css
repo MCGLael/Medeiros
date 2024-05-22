@@ -1,10 +1,11 @@
 .rodape{
     
-    bottom: 0;
+    /*position: absolute;
+    margin: 0;*/
     background-color: #082e38;
     color: white;
     height: auto;
-    width: 100%;
+    /*width: 100%;*/
     font-size: 14px;
     font-family: helvetica;
 }
@@ -17,9 +18,8 @@
 }
 .rodape-div{
     display: flex;
-    
     flex-wrap: wrap;
-    width:100%;
+    width: 100vw;
     margin: auto;
     align-items: stretch;
     padding: 60px 0px 40px 0px;

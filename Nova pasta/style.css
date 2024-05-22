@@ -7,25 +7,27 @@
     font-size: 1.1em;
 
 }
+
 body{
+    
     background-color: white;
 
 }
 header{
+    width: 100%;
     font-size: 0.8em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px;
     align-items: center;
     background-color: rgb(121, 236, 64);
 }
 main{
     margin-top: 10px;
-    height: 100%;
+    height: 100vh;
+  /*  width: 100vw;*/
     background-color: aliceblue;
-    margin-left: 25%;
-    width: 55%;
+    
     
 }
 h1{
@@ -75,13 +77,13 @@ a.logo{
     border-radius: 10%;
     border-width: 5px;
 }
-.pagamento{
+/*.pagamento{
     width: 200px;
     padding-top: 10px;
     padding-left: 100px;
     padding-bottom: 20px;
     
-}
+}*/
 
 
 div.inform{
@@ -91,9 +93,11 @@ div.inform{
     padding-bottom: 30px;
 }
 .loja1 img{
-    display: flex;
-    height: 1000px;
-    justify-content: center;
+    /*float: left;
+    /*border: transparent thin solid;
+    padding: 5px;
+    /*margin: 0px 10px 10px 0;*/
+    max-width: 186px;
 
    
 }
