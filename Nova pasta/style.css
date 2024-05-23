@@ -1,4 +1,5 @@
 *{
+    border: 0;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,20 +24,22 @@ header{
     background-color: rgb(121, 236, 64);
 }
 main{
+    
     margin-top: 10px;
-    height: 100vh;
-  /*  width: 100vw;*/
-    background-color: aliceblue;
-    
-    
+    background-color: aliceblue; 
 }
+.cont1, .cont2{
+    background-color: #ffffff;
+    margin: auto;
+    width: 50%;
+   margin-bottom: 10px;
+}
+
 h1{
     font-size: 2em;
     text-align: center;
 }
-a.logo{
-    padding-left: 10px;
-}
+
 
 .cabec{
     
@@ -110,6 +113,7 @@ div.inform{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
     
 }
 fieldset{

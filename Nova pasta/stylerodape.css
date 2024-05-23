@@ -19,7 +19,7 @@
 .rodape-div{
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+   /* width: 100vw;*/
     margin: auto;
     align-items: stretch;
     padding: 60px 0px 40px 0px;
