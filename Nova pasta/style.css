@@ -95,15 +95,7 @@ div.inform{
     padding-left: 100px;
     padding-bottom: 30px;
 }
-.loja1 img{
-    /*float: left;
-    /*border: transparent thin solid;
-    padding: 5px;
-    /*margin: 0px 10px 10px 0;*/
-    max-width: 186px;
 
-   
-}
 .sociais{
     display: flex;
 }
@@ -119,4 +111,27 @@ div.inform{
 fieldset{
     padding: 10px;
     background-color: aliceblue;
+}
+.loja1{
+    
+        background: #FFFFFF;
+        padding: 20px;
+    
+}
+.loja1 p{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    margin-right: 10%;
+    
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.loja1 h3{
+text-align: center;
+padding-bottom: 10px;
+}
+.lojas{
+    width: 50%;
 }
