@@ -68,7 +68,7 @@ header{
 main{
     
     margin-top: 10px;
-    background-color: aliceblue; 
+   
 }
 .cont1, .cont2{
     background-color: #ffffff;
@@ -78,6 +78,7 @@ main{
 }
 
 h1{
+    margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
 }
